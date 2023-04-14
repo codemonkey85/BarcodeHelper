@@ -1,5 +1,37 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<h3>
+    UPC-A Missing Digit Solver
+</h3>
 
-<DigitsComponent Digits=Digits />
+<MudStack Spacing="2">
+    <MudTextField @bind-Value="UpcCode"
+                  Label="Enter UPC-A code with a missing digit (use ? for the missing digit)"
+                  Variant="Variant.Outlined"
+                  Adornment="Adornment.Start"
+                  AdornmentIcon="Icons.Material.Fingerprint" />
+
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               OnClick="SolveMissingDigit">
+        Solve
+    </MudButton>
+
+    @if (!string.IsNullOrEmpty(CompletedUpcCode))
+    {
+        <MudAlert Severity="Severity.Success">
+            Completed UPC-A code: @CompletedUpcCode
+        </MudAlert>
+
+        <MudPaper Elevation="0" Height="125px" MaxHeight="125px" Outlined="@true">
+            <BarcodeComponent Style="width:200px;height:100px"
+                              BarcodeType="@BarcodeTypes.UpcA"
+                              Content="@CompletedUpcCode"
+                              IncludeEANContentAsText="@true">
+            </BarcodeComponent>
+            <MudText>
+                @CompletedUpcCode
+            </MudText>
+        </MudPaper>
+    }
+</MudStack>
