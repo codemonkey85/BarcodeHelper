@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BarcodeHelper.dll": "sha256-h8cUseAURDxN0oBQdVGu7C\/NIVst8uYnLX+KhzaMRhw=",
+      "BarcodeHelper.dll": "sha256-4yXdFJD05VsAXFNOykWLeDmq9wNhqHNHCe1pQSG5BAY=",
       "Barcoder.dll": "sha256-CJX5IWKZApaymgdueLPOT17ya1AQ\/wDnLrLDkgtRTN8=",
       "Barcoder.Renderer.Svg.dll": "sha256-8TWKcaSFZpONvIGHl\/QhJly3zm8CpY18bZ6AwbaEnRI=",
       "Barcodes.dll": "sha256-Hn23X7owBD+4rYPKJU8F8\/Ves6FuiSAFaXf4Ja2DCvo=",
@@ -28,7 +28,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-9J6sfH9YAJvpXNqj0C3KeV1Wa2RXkipOvjtSCk4Mbbg=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-3+dHa65PgCYOsUMlsJSDYPxt294+nWZxeMbopoWb+fA=",
-      "MudBlazor.dll": "sha256-i8c6ARAvSdlP5wLr7fkP4lQkV9rtM72oMK3xD2Xcwrs=",
+      "MudBlazor.dll": "sha256-ajh2PMRj5RizvT1Bt+nRAeDKFEOdUg5xUhx4mnq69LU=",
       "netstandard.dll": "sha256-MP1UDNcuya1Bq1kjodurr8UF9BcMDsDaHbU0G7\/r7Aw=",
       "SvgLib.dll": "sha256-+7jAQEIbc+OuKufX\/Dd\/j8WiTWQ8CfeMz79DBmMBrh4=",
       "System.Collections.Concurrent.dll": "sha256-hlYwAqBW\/dbT3nvoVzmm51ymnlG1LL4G9Zg9gGMy4jU=",
