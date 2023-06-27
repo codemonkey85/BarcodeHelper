@@ -41,11 +41,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-zMoivFw2fadSandOZaMfE1QXwEoIo+W7LXiVoMxGwFc=",
+      "hash": "sha256-segQpJYqBQHAbfXHIC837ZU00Sf6YI0yDuVK88Or28Q=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-n2VIWoj99cu8EgurdIEPUGn9CK8YHD066\/jvNJwnUY4=",
+      "hash": "sha256-wGmOwEWlct5yMtgHkGG9Qf5oh7bNxwwtfqR6CWSL3sk=",
       "url": "_framework\/BarcodeHelper.dll"
     },
     {
@@ -185,7 +185,7 @@
       "url": "_framework\/System.dll"
     },
     {
-      "hash": "sha256-K4Pw0WErHDSIZEytbM2a3Pnlh1vkuFwjYweANSnOECo=",
+      "hash": "sha256-pdmlWT9aExVWXqi\/MOvmKlz5TFHWOCC4m92XFt65xG4=",
       "url": "_framework\/System.Linq.dll"
     },
     {
@@ -209,7 +209,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-32lbU+WMWRzCzMZeQiZAVFP52+8puhe460EqBLgBKYg=",
+      "hash": "sha256-TjxjPq3iM6TKTJZ2JiQnxqTfBca2sZghC3qFSN7A3d4=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -249,7 +249,7 @@
       "url": "_framework\/dotnet.7.0.8.crsoc8jj12.js"
     },
     {
-      "hash": "sha256-BEa4cXAH0QjSy6dAUI6qEHMtk6qPWhVoqNW9F\/L9AK4=",
+      "hash": "sha256-bNDsmgFQfpsBgltSaeR+vX9ktGw2OArgX4p\/M88TLIU=",
       "url": "_framework\/dotnet.wasm"
     },
     {
@@ -261,5 +261,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "44Fjs9RH"
+  "version": "feLA9Xgs"
 };
