@@ -9,7 +9,11 @@
                   Label="Enter UPC-A code with a missing digit (use ? for the missing digit)"
                   Variant="Variant.Outlined"
                   Adornment="Adornment.Start"
-                  AdornmentIcon="Icons.Material.Fingerprint" />
+                  AdornmentIcon="Icons.Material.Fingerprint"
+                  MaxLength="12"
+                  Counter="12"
+                  Immediate="true"
+                  Validation="@(new Func<string, IEnumerable<string>>(ValidateUpc))" />
 
     <MudButton Variant="Variant.Filled"
                Color="Color.Primary"
@@ -23,7 +27,10 @@
             Completed UPC-A code: @CompletedUpcCode
         </MudAlert>
 
-        <MudPaper Elevation="0" Height="125px" MaxHeight="125px" Outlined="@true">
+        <MudPaper Elevation="0"
+                  Height="125px"
+                  MaxHeight="125px"
+                  Outlined="@true">
             <BarcodeComponent Style="width:200px;height:100px"
                               BarcodeType="@BarcodeTypes.UpcA"
                               Content="@CompletedUpcCode"

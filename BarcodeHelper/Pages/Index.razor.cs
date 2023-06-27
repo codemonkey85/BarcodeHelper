@@ -6,6 +6,18 @@ public partial class Index
 
     private string CompletedUpcCode { get; set; } = string.Empty;
 
+    private static IEnumerable<string> ValidateUpc(string ch) =>
+        ch.Select(c => c switch
+        {
+            _ when c is not (>= '0' and <= '9') and not '?' => "Only digits and '?' allowed.",
+            _ when ch is not { Length: 12 } => "Must be exactly 12 digits.",
+            _ when !ch.Any(x => x is '?') => "Please use '?' for the missing digit.",
+            _ when ch.Count(x => x is '?') > 1 => "Only one '?' allowed.",
+            _ => string.Empty,
+        })
+        .Where(error => error is { Length: > 0 })
+        .Distinct();
+
     private void SolveMissingDigit()
     {
         if (!UpcCode.Contains('?'))
