@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BarcodeHelper",
   "resources": {
-    "hash": "sha256-tECNloBSjp4/qYCSlazZrTGQNjyuTmZ8sGGVLwGw/pA=",
+    "hash": "sha256-Tg+rf02ecWOtU+UQXNQLx6TeX2lBlPT0kYECm+v52R0=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.ka7c23zjtk.js": "sha256-nIIqM4n4JaKKDfAY2pvhp/MezpJiq9iH5ifektE1qXE="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "BarcodeHelper.wasm": "sha256-TTvxyLntnNOGcWjFNjDjuhukIMyOdZVXEhj8pFTcRUc=",
+      "BarcodeHelper.wasm": "sha256-Y0XhuCjT1x4MlU2iN+eh0mNiHHI7tMeEQVIyYQ7icn0=",
       "Barcoder.Renderer.Svg.wasm": "sha256-g0qQajSUFi6i0csBdpqtLth0IYGwEif6JMkfReqk7q0=",
       "Barcoder.wasm": "sha256-K5gB5ZVhvhbpMSop8FIOSyjNu9R12Hnzlw6/wflOaAM=",
       "Barcodes.wasm": "sha256-qnIczsYfqXspLC2DGCjlXHJqg8SEpopuyHtWokwA65Q=",
@@ -40,7 +40,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
       "Microsoft.JSInterop.wasm": "sha256-EtJO0POenyod5M2fB0fS97fOwqWAHYxciSYpGqqItvE=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-CQVLCKiSxLN5ghyJZG3mhnMGRROdqrbNUjtAXB0nWb8=",
-      "MudBlazor.wasm": "sha256-4i36a+8WOs8G3DAV+C9yHnxpeNHWivb/6W+AFJiGFqY=",
+      "MudBlazor.wasm": "sha256-X6hEAC1gte5bCVkY2dXvDRBBysCl4suZFLpF5wk9JEU=",
       "netstandard.wasm": "sha256-yARQxFgllw7gDmZQ3XyDUkcyVWHlkCunRNnlem/HlPM=",
       "SvgLib.wasm": "sha256-najrn3loGjcdehnlLJZqqRt2Akmjc4aV9bWoC0rdeAA=",
       "System.Collections.Concurrent.wasm": "sha256-lvYrz/ocEJHdTzE+HH9Y9CTmnzlavMrhyBb9mdVu8EM=",
