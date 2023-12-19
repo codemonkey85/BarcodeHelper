@@ -2,7 +2,7 @@ namespace BarcodeHelper.Pages;
 
 public partial class Index
 {
-    private string UpcCode { get; set; } = string.Empty;
+    private readonly UpcEditModel upcEditModel = new();
 
     private string CompletedUpcCode { get; set; } = string.Empty;
 
@@ -20,16 +20,18 @@ public partial class Index
         .Where(error => error is { Length: > 0 })
         .Distinct();
 
+    private bool UpcIsInvalid => string.IsNullOrEmpty(upcEditModel.UpcCode) || ValidateUpc(upcEditModel.UpcCode).Any();
+
     private void SolveMissingDigit()
     {
-        if (!UpcCode.Contains('?'))
+        if (!upcEditModel.UpcCode.Contains('?'))
         {
             DialogService.ShowMessageBox("Error", "Invalid input: No missing digit found.");
             return;
         }
 
-        var calculatedDigit = CalculateMissingDigit(UpcCode);
-        CompletedUpcCode = UpcCode.Replace('?', Convert.ToChar(calculatedDigit + '0'));
+        var calculatedDigit = CalculateMissingDigit(upcEditModel.UpcCode);
+        CompletedUpcCode = upcEditModel.UpcCode.Replace('?', Convert.ToChar(calculatedDigit + '0'));
     }
 
     private static int CalculateMissingDigit(string upcCode)
@@ -73,5 +75,10 @@ public partial class Index
         }
 
         return bestDigit;
+    }
+
+    private class UpcEditModel
+    {
+        public string UpcCode { get; set; } = string.Empty;
     }
 }
