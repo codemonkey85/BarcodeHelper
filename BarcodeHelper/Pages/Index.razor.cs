@@ -6,6 +6,8 @@ public partial class Index
 
     private string CompletedUpcCode { get; set; } = string.Empty;
 
+    private readonly IMask digitMask = new RegexMask(@"^[0-9?]{0,12}$");
+
     private static IEnumerable<string> ValidateUpc(string ch) =>
         ch.Select(c => c switch
         {

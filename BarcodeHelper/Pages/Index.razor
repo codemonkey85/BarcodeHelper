@@ -13,7 +13,8 @@
                   MaxLength="12"
                   Counter="12"
                   Immediate="true"
-                  Validation="@(new Func<string, IEnumerable<string>>(ValidateUpc))" />
+                  Validation="@(new Func<string, IEnumerable<string>>(ValidateUpc))"
+                  Mask="@digitMask" />
 
     <MudButton Variant="Variant.Filled"
                Color="Color.Primary"
