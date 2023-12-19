@@ -1,11 +1,8 @@
 ﻿@page "/"
 
-<h3>
-    UPC-A Missing Digit Solver
-</h3>
-
 <EditForm Model="@UpcEditModel"
-          OnValidSubmit="SolveMissingDigit">
+          OnValidSubmit="SolveMissingDigit"
+          class="mt-3">
     <MudStack Spacing="2">
         <MudTextField @bind-Value="UpcEditModel.UpcCode"
                       Label="Enter UPC-A code with a missing digit (use ? for the missing digit)"
@@ -17,7 +14,7 @@
                       Immediate="true"
                       Validation="@(new Func<string, IEnumerable<string>>(ValidateUpc))"
                       Mask="@digitMask"
-                        Required />
+                      Required />
 
          <MudButton Variant="Variant.Filled"
                     Color="Color.Primary"
