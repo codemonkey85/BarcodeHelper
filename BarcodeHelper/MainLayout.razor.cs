@@ -2,6 +2,8 @@ namespace BarcodeHelper;
 
 public partial class MainLayout
 {
+    private const string AppTitle = "Barcode Helper";
+
     private bool isDarkMode;
     private MudThemeProvider? mudThemeProvider;
 
