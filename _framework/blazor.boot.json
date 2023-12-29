@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BarcodeHelper",
   "resources": {
-    "hash": "sha256-Tg+rf02ecWOtU+UQXNQLx6TeX2lBlPT0kYECm+v52R0=",
+    "hash": "sha256-jgv1rrsvwL8qiKAOn2GxtYrb2wXHzPeyvapnRxkgeHo=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.ka7c23zjtk.js": "sha256-nIIqM4n4JaKKDfAY2pvhp/MezpJiq9iH5ifektE1qXE="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "BarcodeHelper.wasm": "sha256-Y0XhuCjT1x4MlU2iN+eh0mNiHHI7tMeEQVIyYQ7icn0=",
+      "BarcodeHelper.wasm": "sha256-+1T6arXb4RSo7p6InPichxjgxTj9TExEMD3aajZc0lw=",
       "Barcoder.Renderer.Svg.wasm": "sha256-g0qQajSUFi6i0csBdpqtLth0IYGwEif6JMkfReqk7q0=",
       "Barcoder.wasm": "sha256-K5gB5ZVhvhbpMSop8FIOSyjNu9R12Hnzlw6/wflOaAM=",
       "Barcodes.wasm": "sha256-qnIczsYfqXspLC2DGCjlXHJqg8SEpopuyHtWokwA65Q=",
