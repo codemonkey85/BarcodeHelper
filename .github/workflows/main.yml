@@ -15,10 +15,9 @@ jobs:
 
       # sets up .NET SDK
       - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: "8.x"
-          include-prerelease: true
+          global-json-file: ./global.json
 
       - name: Install WASM workload
         run: dotnet workload install wasm-tools
