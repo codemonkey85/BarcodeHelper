@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "BarcodeHelper",
   "resources": {
-    "hash": "sha256-klNNJ7h40/UZqsbIRVCjgapHy9K0W/Nwkfpj1LkxgEk=",
+    "hash": "sha256-G663uz2Efci7Q/mGJr4cDnTRekUfe3YSoZV9TWBrsAw=",
     "fingerprinting": {
-      "BarcodeHelper.4gtekd23gr.wasm": "BarcodeHelper.wasm",
+      "BarcodeHelper.e4r7ata78v.wasm": "BarcodeHelper.wasm",
       "Barcoder.Renderer.Svg.p5jy4rduqa.wasm": "Barcoder.Renderer.Svg.wasm",
       "Barcoder.pz5embb7up.wasm": "Barcoder.wasm",
       "Barcodes.6d1zxkvkd5.wasm": "Barcodes.wasm",
@@ -83,7 +83,7 @@
       "System.Runtime.InteropServices.JavaScript.3uvku0ibnu.wasm": "sha256-K5wa4QwWB8A0OrHM4yWK86Nl6ItEv9c3ctAASLMYLKo="
     },
     "assembly": {
-      "BarcodeHelper.4gtekd23gr.wasm": "sha256-bKvlQJFQpiuPv9tIM1LtW1aGaZQ91RS4cDleRMrifWo=",
+      "BarcodeHelper.e4r7ata78v.wasm": "sha256-DsMYb8rVSjx17cjAO+B4IKhEukYxsx+y09mg9RLgReo=",
       "Barcoder.Renderer.Svg.p5jy4rduqa.wasm": "sha256-g0qQajSUFi6i0csBdpqtLth0IYGwEif6JMkfReqk7q0=",
       "Barcoder.pz5embb7up.wasm": "sha256-K5gB5ZVhvhbpMSop8FIOSyjNu9R12Hnzlw6/wflOaAM=",
       "Barcodes.6d1zxkvkd5.wasm": "sha256-qnIczsYfqXspLC2DGCjlXHJqg8SEpopuyHtWokwA65Q=",
